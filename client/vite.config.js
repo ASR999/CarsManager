@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://cars-manager-a12z.vercel.app/',
+        target: 'https://cars-manager-a12z.vercel.app',
         secure: false,
       },
     },
